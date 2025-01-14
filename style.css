@@ -10,7 +10,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 h1, h2, h3 {
@@ -60,19 +60,19 @@ main {
     max-width: 500px;
 }
 .first.product {
-    background-color: #e3f2fd; /* Голубой для истории */
+    background-color: #e3f2fd;
 }
 
 .second.product {
-    background-color: #fce4ec; /* Розовый для эпохи Абрамовича */
+    background-color: #fce4ec; 
 }
 
 .fird.product {
-    background-color: #fff3e0; /* Оранжевый для трофеев */
+    background-color: #fff3e0;
 }
 
 .four.product {
-    background-color: #ede7f6; /* Фиолетовый для состава */
+    background-color: #ede7f6;
 }
 
 .table {
@@ -84,7 +84,28 @@ main {
 .table ul li {
     padding: 5px 0;
 }
+.scrollable-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
 
+.scrollable-list ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.scrollable-list li {
+    text-align: center;
+}
+
+.scrollable-list img {
+    width: 100px; /* Уменьшение размера изображений */
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
 .Contact{
     background-color: #F0F0F0;
     border: 1px solid #ddd;
